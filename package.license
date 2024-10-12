@@ -1,0 +1,5 @@
+# Binary redistributables for linux-firmware drivers
+sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
+net-im/discord all-rights-reserved
+games-util/steam-launcher ValveSteamLicense
+app-arch/unrar unRAR

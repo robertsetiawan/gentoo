@@ -1,0 +1,233 @@
+# System packages
+app-shells/bash-completion eselect
+sys-apps/systemd-utils tmpfiles
+sys-auth/seatd builtin server
+sys-boot/grub device-mapper
+app-crypt/pinentry caps
+app-portage/gemato gpg
+sys-apps/openrc bash
+dev-libs/openssl asm
+dev-lang/python ssl
+dev-libs/nettle gmp
+sys-apps/util-linux su
+sys-apps/kmod lzma
+media-video/pipewire sound-server pipewire-alsa
+x11-base/xorg-server xorg
+x11-libs/cairo glib
+media-libs/harfbuzz glib truetype introspection
+media-libs/freetype png
+x11-libs/libdrm video_cards_radeon
+media-libs/libcanberra gtk3
+media-libs/libpulse glib
+dev-lang/python sqlite
+app-text/xmlto text
+media-libs/imlib2 filters text png jpeg
+media-libs/mesa vulkan
+x11-misc/polybar pulseaudio network
+dev-python/pygobject cairo
+x11-libs/gtk+ introspection
+app-accessibility/at-spi2-core introspection
+x11-libs/gdk-pixbuf introspection
+x11-libs/pango introspection
+x11-misc/rofi drun
+
+
+kde-frameworks/* kf6compat
+dev-qt/qtcharts qml
+dev-qt/qtpositioning geoclue
+app-arch/libarchive lzma
+app-crypt/gpgme qt6 cxx
+dev-qt/qtspeech flite speechd
+media-libs/phonon-vlc qt6
+kde-plasma/plasma-meta networkmanager wallpapers bluetooth xwayland pulseaudio
+kde-plasma/breeze qt5
+kde-plasma/kwin lock
+kde-plasma/plasma-integration qt5
+sys-fs/udisks daemon
+app-arch/libarchive bzip2 zstd
+dev-libs/libpcre2 pcre16
+dev-qt/qttools linguist assistant widgets opengl qdbus
+dev-qt/qtquick3d opengl
+dev-qt/qtbase gui wayland cups libinput network widgets xml sqlite sql concurrent ssl opengl libproxy icu
+dev-qt/qtgui egl libinput wayland
+app-crypt/qca qt6
+dev-qt/qtdeclarative widgets
+dev-qt/qt5compat qml icu
+kde-frameworks/kwindowsystem wayland
+sys-auth/polkit-qt qt6
+dev-qt/qtdeclarative network opengl
+sys-auth/polkit daemon
+sys-libs/libblockdev nvme cryptsetup
+kde-frameworks/prison qml
+media-libs/phonon qt6
+dev-qt/qtmultimedia qml ffmpeg opengl
+kde-frameworks/sonnet qml
+media-video/vlc ogg gui ffmpeg
+media-video/ffmpeg postproc x264 gpl
+sys-libs/zlib minizip
+sys-auth/polkit-qt qt5
+dev-qt/qtnetwork ssl
+dev-qt/qtcore icu
+kde-frameworks/kconfig qml
+kde-frameworks/kguiaddons wayland
+kde-frameworks/kidletime wayland
+media-libs/mesa wayland
+x11-base/xwayland libei
+dev-libs/protobuf protoc protobuf
+
+# Kernel packages
+sys-kernel/linux-firmware redistributable
+sys-kernel/installkernel grub dracut
+
+# Rust language
+dev-lang/rust nightly rust-analyzer rust-src rustfmt
+net-misc/curl http2 ssl
+
+# Core packages
+app-crypt/gnupg smartcard ssl tools
+sys-block/parted device-mapper
+dev-vcs/git gpg highlight curl
+
+# Networking packages
+net-misc/networkmanager nss iptables tools connection-sharing dhcpcd
+net-dns/dnsmasq dhcp
+
+# App alternatives
+app-alternatives/ninja reference
+app-alternatives/yacc bison reference
+app-alternatives/bzip2 lbzip2
+app-alternatives/lex reflex
+app-alternatives/gzip pigz
+app-alternatives/cpio gnu
+app-alternatives/awk gawk
+app-alternatives/tar gnu
+app-alternatives/sh bash
+app-alternatives/bc gnu
+
+www-client/firefox llvm_slot_18
+
+# steam
+x11-libs/libX11 abi_x86_32
+x11-libs/libXau abi_x86_32
+x11-libs/libxcb abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+virtual/opengl abi_x86_32
+media-libs/mesa abi_x86_32
+dev-libs/expat abi_x86_32
+media-libs/libglvnd abi_x86_32
+sys-libs/zlib abi_x86_32
+x11-libs/libdrm abi_x86_32
+x11-libs/libxshmfence abi_x86_32
+x11-libs/libXext abi_x86_32
+x11-libs/libXxf86vm abi_x86_32
+x11-libs/libXfixes abi_x86_32
+app-arch/zstd abi_x86_32
+sys-devel/llvm abi_x86_32
+x11-libs/libXrandr abi_x86_32
+x11-libs/libXrender abi_x86_32
+dev-libs/libffi abi_x86_32
+sys-libs/ncurses abi_x86_32
+dev-libs/libxml2 abi_x86_32
+dev-libs/icu abi_x86_32
+sys-libs/gpm abi_x86_32
+virtual/libelf abi_x86_32
+dev-libs/elfutils abi_x86_32
+app-arch/bzip2 abi_x86_32
+dev-libs/nspr abi_x86_32
+dev-libs/nss abi_x86_32
+net-libs/libndp abi_x86_32
+x11-libs/extest abi_x86_32
+dev-libs/libevdev abi_x86_32
+dev-libs/wayland abi_x86_32
+virtual/rust abi_x86_32
+dev-lang/rust-bin abi_x86_32
+x11-libs/libpciaccess abi_x86_32
+sys-devel/clang abi_x86_32
+media-libs/fontconfig abi_x86_32
+sys-libs/libudev-compat abi_x86_32
+media-libs/libpulse abi_x86_32
+media-libs/libsndfile abi_x86_32
+net-libs/libasyncns abi_x86_32
+sys-apps/dbus abi_x86_32
+dev-libs/glib abi_x86_32
+dev-libs/libpcre2 abi_x86_32
+sys-apps/util-linux abi_x86_32
+media-libs/flac abi_x86_32
+media-libs/libogg abi_x86_32
+media-libs/libvorbis abi_x86_32
+media-libs/opus abi_x86_32
+media-sound/lame abi_x86_32
+media-sound/mpg123-base abi_x86_32
+media-libs/freetype abi_x86_32
+media-libs/libpng abi_x86_32
+virtual/libintl abi_x86_32
+virtual/libudev abi_x86_32
+sys-apps/systemd-utils abi_x86_32
+sys-libs/libcap abi_x86_32
+sys-libs/pam abi_x86_32
+virtual/libiconv abi_x86_32
+x11-libs/xcb-util-keysyms abi_x86_32
+app-accessibility/at-spi2-core abi_x86_32
+app-i18n/ibus gtk3
+dev-libs/dbus-glib abi_x86_32
+media-libs/alsa-lib abi_x86_32
+media-libs/libva abi_x86_32
+media-libs/openal abi_x86_32
+media-video/pipewire abi_x86_32
+net-misc/curl abi_x86_32
+net-misc/networkmanager abi_x86_32
+x11-libs/gdk-pixbuf abi_x86_32
+x11-libs/gtk+ abi_x86_32
+x11-libs/libICE abi_x86_32
+x11-libs/libSM abi_x86_32
+x11-libs/libvdpau abi_x86_32
+x11-libs/libXcomposite abi_x86_32
+x11-libs/libXcursor abi_x86_32
+x11-libs/libXdamage abi_x86_32
+x11-libs/libXi abi_x86_32
+x11-libs/libXinerama abi_x86_32
+x11-libs/libXScrnSaver abi_x86_32
+x11-libs/libXtst abi_x86_32
+x11-libs/pango abi_x86_32
+media-sound/apulse abi_x86_32
+dev-libs/fribidi abi_x86_32
+media-libs/harfbuzz abi_x86_32
+x11-libs/cairo abi_x86_32
+x11-libs/libXft abi_x86_32
+dev-libs/lzo abi_x86_32
+x11-libs/pixman abi_x86_32
+gnome-base/librsvg abi_x86_32
+net-libs/nghttp2 abi_x86_32
+net-dns/libidn2 abi_x86_32
+dev-libs/openssl abi_x86_32
+dev-libs/libunistring abi_x86_32
+dev-db/sqlite abi_x86_32
+sys-libs/readline abi_x86_32
+virtual/libcrypt abi_x86_32
+sys-libs/libxcrypt abi_x86_32
+virtual/libusb abi_x86_32
+dev-libs/libusb abi_x86_32
+media-libs/libpulse abi_x86_32
+dev-libs/icu abi_x86_32
+media-libs/libsdl2 abi_x86_32 sound video
+media-libs/libepoxy abi_x86_32
+media-libs/vulkan-loader abi_x86_32
+media-libs/vulkan-layers abi_x86_32
+dev-util/spirv-tools abi_x86_32
+dev-util/glslang abi_x86_32
+dev-util/vulkan-utility-libraries abi_x86_32
+sys-libs/glibc stack-realign
+net-libs/gnutls abi_x86_32
+dev-libs/libtasn1 abi_x86_32
+dev-libs/nettle abi_x86_32
+dev-libs/gmp abi_x86_32
+
+# lutris
+x11-libs/gdk-pixbuf jpeg
+media-libs/libjpeg-turbo abi_x86_32
+sys-fs/fuse suid
+net-libs/webkit-gtk introspection
+media-libs/harfbuzz icu
+net-libs/libsoup introspection
+dev-lang/ruby ssl
+media-libs/imgui opengl
